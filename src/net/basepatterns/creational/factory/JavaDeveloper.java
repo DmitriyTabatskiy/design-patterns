@@ -1,8 +1,9 @@
 package net.basepatterns.creational.factory;
 
-public class JavaDeveloper {
+public class JavaDeveloper implements Developer {
 
-    void writeJavaCode() {
+    @Override
+    public void writeCode() {
         System.out.println("Java Developer write Java Code");
     }
 }

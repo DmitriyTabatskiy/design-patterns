@@ -1,8 +1,9 @@
 package net.basepatterns.creational.factory;
 
-public class CppDeveloper {
+public class CppDeveloper implements Developer {
 
-    void writeCppCode() {
+    @Override
+    public void writeCode() {
         System.out.println("C++ Code Written");
     }
 }
